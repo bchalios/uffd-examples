@@ -14,5 +14,5 @@ env_logger = "0.11"
 rand = "0.8.5"
 
 [patch.crates-io]
-userfaultfd = { path = "../userfaultfd-rs/" }
+userfaultfd = { git = "https://github.com/e2b-dev/userfaultfd-rs.git", branch = "feat_write_protection" }
 
